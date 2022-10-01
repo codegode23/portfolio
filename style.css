@@ -15,7 +15,9 @@ html{
 }
 
 body{
-  background: linear-gradient(to right top, #383c6b, #252747);
+  background: rgb(20,20,115);
+background: linear-gradient(96deg, rgba(20,20,115,1) 0%, rgba(0,212,255,1) 0%, rgba(2,176,231,1) 0%, rgba(6,87,173,1) 0%, rgba(5,71,147,1) 17%, rgba(3,28,80,1) 81%, rgba(10,7,64,1) 100%); 
+    
 }
 
 .links {
