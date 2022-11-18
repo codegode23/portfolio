@@ -1,14 +1,13 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Sono', sans-serif
 }
-
 
 html{
   scroll-behavior: smooth;
@@ -170,11 +169,6 @@ padding: 1rem 0;
 
 }
 
-
-
-
-
-
 /*About Section*/
 
 
@@ -197,8 +191,7 @@ padding: 1rem 0;
   rgba(255,255,255,0.4), 
    rgba(255,255,255,0.6)); */
       padding: 1rem;
-      border-radius: .7rem;
-      border:4px solid rgba(255,255,255,0.7);
+     
 }
 
 .about-content h1{
@@ -296,7 +289,7 @@ padding: 1rem 0;
 
 @media screen and (max-width: 310px){
   .about-content h2{
-    font-size: 28px;
+    font-size: 20px;
   }
 
   
@@ -312,6 +305,79 @@ padding: 1rem 0;
 
 
 
+/*Services Section*/
+
+.services{
+  width: 100%;
+}
+
+.services h2{
+  color: #fff;
+  font-size: 55px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.services-container{
+  padding: 1rem;
+  border-radius: 14px;
+  background: var(--white);
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+   border-radius: .7rem;
+      border:4px solid rgba(255,255,255,0.7);
+}
+
+.service-box{
+  max-width: 320px;
+  flex: 1 1 50rem;
+  padding: 2rem;
+  margin-top: 2%;
+  text-align: center;
+  border-radius: .7rem;
+      border:4px solid rgba(255,255,255,0.7);
+}
+
+.service-box i{
+  font-size: 50px;
+  margin-bottom: 4%;
+  color: #fff;
+}
+
+.service-box h4{
+  color: #fff;
+  margin-bottom: 4%;
+}
+
+.service-box p{
+  color: #fff;
+}
+
+@media screen and (max-width:400px) {
+  
+.service-box p{
+  color: #fff;
+  font-size: 12px;
+}
+
+
+.services h2{
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 20px;
+}
+}
+
+/*About Section*/
 
 
 
@@ -499,6 +565,13 @@ padding: 1rem 0;
   font-size: 19px;
 
 }
+
+
+.port-title {
+  
+  font-size: 20px;
+}
+
   
 
 }
@@ -519,6 +592,8 @@ padding: 1rem 0;
   scroll-behavior: smooth;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  border-radius: .7rem;
+  border:4px solid rgba(255,255,255,0.7);
 }
 
 .instagram-container::-webkit-scrollbar{
